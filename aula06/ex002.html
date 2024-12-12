@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu primeiro programa...</title>
-    <style>
+    <style> /* CSS */
         body {
             background-color: aquamarine;
         }
     </style>
 </head>
 <body>
-    <h1>Olá, Mundo!</h1>
+    <h1>Olá, Mundo!</h1> <!-- HMTL -->
 
-    <script>
-        window.alert("Minha primeira mensagem!"); // Janela vai aparecer uma alerta na tela.
-        window.confirm("Está gostando de JS?"); // Janela com botão OK e Cancel
-        window.prompt("Qual é seu nome?"); // Vai perguntar o nome
+    <script> /* JAVASCRIPT */
+        var nome = window.prompt("Qual é seu nome?")
+
+        window.alert("É um grande prazer em te conhecer, " + nome + " !") // concatenação "+"
     </script>
 </body>
 </html>
